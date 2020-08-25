@@ -88,6 +88,9 @@ int main(){
         cout << "X[" << i << "] = " << X[i] << endl;
         cout << "Y[" << i << "] = " << Y[i] << endl;
         cout << "Z[" << i << "] = " << Z[i] << endl;
+        cout << "Px[" << i << "] = " << Px[i] << endl;
+        cout << "Py[" << i << "] = " << Py[i] << endl;
+        cout << "Pz[" << i << "] = " << Pz[i] << endl;
 #endif //DEBUG
 
         trajectory[i] = sqrt(pow(X[i]-8.5, 2) + pow(Y[i], 2) + pow(Z[i], 2));
